@@ -9,16 +9,14 @@ const UserInfo = (props) => {
 
 
     return (
-        <div className="bg-gradient-to-r from-purple-700 via-purple-600 to-purple-500  flex flex-col items-center align-center b-90">
+        <div className="bg-gradient-to-r from-violet-600  to-violet-500 flex flex-col align-center ">
             <Navbar />
-            {console.log(userSelect)}
-            {userSelect?.map((user, index) => {
-                return (
-                    <div key={index}>
-                        <UserInfoCard userImageUrl={user.picture.large} titleName={user.name.title} firstName={user.name.first} lastName={user.name.last} gender={user.gender} dobAge={user.dob.age} username={user.login.username} userEmail={user.email} />
-                    </div>
-                )
-            })}
+            <UserInfoCard titleName={userSelect.name.title} firstName={userSelect.name.first} lastName={userSelect.name.last} gender={userSelect.gender} dobAge={userSelect.dob.age} username={userSelect.login.username} userEmail={userSelect.email} userImageUrl={userSelect.picture.large} />
+            
+
+
+
+
 
         </div>
     )
