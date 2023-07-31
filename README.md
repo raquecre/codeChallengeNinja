@@ -12,7 +12,7 @@ Además, al ser una página escrita en español, hay datos de que han necesitado
 
 También es responsive, ya que la disposición de los divs varía según el tamaño de la pantalla. 
 
-El enlace al proyecto desplegado: [Lista de usuarios](https://countrieslist-raquecre.netlify.app/).
+El enlace al proyecto desplegado: [Lista de usuarios](https://listausuarios-ninjatalent.netlify.app/).
 
 ## Previsualización
 
