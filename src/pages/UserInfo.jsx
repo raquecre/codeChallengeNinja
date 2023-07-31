@@ -9,9 +9,9 @@ const UserInfo = (props) => {
 
 
     return (
-        <div className="bg-gradient-to-r from-violet-600  to-violet-500 flex flex-col align-center ">
+        <div className="gr-cover bg-gradient-to-r from-violet-600  to-violet-500 flex flex-col align-center ">
             <Navbar />
-            <UserInfoCard titleName={userSelect.name.title} firstName={userSelect.name.first} lastName={userSelect.name.last} gender={userSelect.gender} dobAge={userSelect.dob.age} username={userSelect.login.username} userEmail={userSelect.email} userImageUrl={userSelect.picture.large} />
+            <UserInfoCard  userCity={userSelect.location.city} userState={userSelect.location.state} userCountry={userSelect.location.country} userphone={userSelect.phone} titleName={userSelect.name.title} firstName={userSelect.name.first} lastName={userSelect.name.last} gender={userSelect.gender} dobAge={userSelect.dob.age} username={userSelect.login.username} userEmail={userSelect.email} userImageUrl={userSelect.picture.large} />
             
 
 
