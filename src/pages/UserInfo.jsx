@@ -3,8 +3,8 @@ import Navbar from "../Components/Navbar"
 import UserInfoCard from "../Components/UserInfoCard"
 import { UserContext, } from "../Context/users"
 
-const UserInfo = (props) => {
-    const { titleName, firstName, lastName, gender, dobAge, username, userEmail, userImageUrl } = props
+const UserInfo = () => {
+   
     const { userSelect } = useContext(UserContext)
 
 

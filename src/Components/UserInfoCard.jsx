@@ -1,13 +1,13 @@
 import TitleDetails from "./titleDetails"
 
 const UserInfoCard = (props) => {
-    const {userCountry, userState, userCity,userTimezone, titleName, firstName, lastName, gender, dobAge, username, userEmail, userImageUrl,userphone } = props
+    const {userCountry, userState, userCity, titleName, firstName, lastName, gender, dobAge, username, userEmail, userImageUrl,userphone } = props
 
     return (
         <div key="userSelected" className="UserInfoCard h-screen w-screen flex flex-col items-center gap-10">
 
             <div className="flex justify-center text-xl bg-violet-700 text-black font-bold w-full p-5 pr-20 w-full">
-                <img className="rounded-full" alt="image-profile" src={userImageUrl} />   
+                <img className="rounded-full" alt="profile" src={userImageUrl} />   
             </div>
             <div className="flex items-center gap-2 m-2 grid grid-col sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
